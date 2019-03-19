@@ -7,8 +7,11 @@
 .container > span{
   background-color: green;
   position: absolute;
+  padding: 5px 10px;
   top: 0;
   right: 0;
+  font-size: 20px;
+  color: orange;
 }
 
 .cuore{
@@ -16,10 +19,16 @@
   color:red;
   position: absolute;
   bottom:10px;
-  left: 150px;
+  left: 50%;
   opacity: 0;
+  text-align: center;
 }
 
 .container:hover .cuore{
     opacity: 1;
+}
+
+.container .hot{
+  background-color: red;
+  color:white;
 }
