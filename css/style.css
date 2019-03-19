@@ -12,6 +12,7 @@
   right: 0;
   font-size: 20px;
   color: orange;
+  font-weight: bold;
 }
 
 .cuore{
@@ -21,14 +22,15 @@
   bottom:10px;
   left: 50%;
   opacity: 0;
-  text-align: center;
+
 }
 
 .container:hover .cuore{
     opacity: 1;
 }
 
-.container .hot{
+.container .hot_red{
   background-color: red;
   color:white;
+  font-weight: bold;
 }
