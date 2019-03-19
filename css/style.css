@@ -1,0 +1,25 @@
+.container{
+  display: inline-block;
+  widht: 300px;
+  heigth: 372px;
+  position: relative;
+}
+.container > span{
+  background-color: green;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.cuore{
+  font-size: 30px;
+  color:red;
+  position: absolute;
+  bottom:10px;
+  left: 150px;
+  opacity: 0;
+}
+
+.container:hover .cuore{
+    opacity: 1;
+}
