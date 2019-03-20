@@ -21,12 +21,14 @@
   position: absolute;
   bottom:10px;
   left: 50%;
-  opacity: 0;
+  /* opacity: 0; */
+  display: none; /*avevo usato la proprietà sotto funziona ma è più corretta questa */
 
 }
 
 .container:hover .cuore{
-    opacity: 1;
+    display: block; /*avevo usato la proprietà sotto funziona ma è più corretta questa */
+    /* opacity: 1;*/
 }
 
 .container .hot_red{
