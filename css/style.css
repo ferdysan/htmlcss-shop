@@ -22,7 +22,7 @@
   bottom:10px;
   left: 50%;
   /* opacity: 0; */
-  display: none; /*avevo usato la proprietà sotto funziona ma è più corretta questa */
+  display: none; /*avevo usato la proprietà sopra funziona ma è più corretta questa */
 
 }
 
